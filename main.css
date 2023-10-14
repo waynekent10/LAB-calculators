@@ -2,7 +2,203 @@
     margin: 20% 38%;
   cursor: pointer;
   }
-
+  #calc-multiply {
+    width: 8;
+    height: 80px;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-minus {
+    width: 8;
+    height: 80px;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  
+    #calc-add {
+      width: 8;
+      height: 80px;
+      border: 1px solid;
+      border-color: black;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 50;
+      padding-top: 3px;
+      grid-template-rows: 0 auto;
+  
+  }
+  
+  #calc-equals {
+    width: 8;
+    height: 80px;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-clear{
+    width: 8;
+    height: 80px;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  
+  #calc-zero {
+    width: 8;
+    height: 80px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #backspace {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  
+  }
+  
+  #calc-divide {
+    width: 8;
+    height: 80px;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  
+  #calc-seven {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-eight {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  
+  }
+  #calc-nine {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-one {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-two {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-three { 
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-four {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-five {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  #calc-six {
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+  }
+  /*.calc-btn {
+    background-color: lightgrey;
+    color: black;
+    width: 79px;
+    height: 80px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+    padding-top: 3px;
+    grid-template-rows: 0 auto;
+    display: grid;
+    
+  }*/
+  .calc-btn:hover {
+    background-color: #ebebeb;
+  }
+  .calc-btn:hover:active {
+    background-color: #bbbcbe;
+  }
+  .special-btn:hover{
+    background-color: #dfb07e;
+  }
+  .special-btn:hover:active{
+    background-color: #dd8d37;
+  }
+  
+  .row {
+    display: flex;
+    width: 400px;
+  }
+  
+  
   #result-screen {
     height: 80px; color: white;
     text-align: right;
@@ -15,3 +211,10 @@
     padding: 12px;
    
   }
+  
+  .special-btn {
+    background-color: #dfb07e;
+    color: white;
+  
+  }
+  
